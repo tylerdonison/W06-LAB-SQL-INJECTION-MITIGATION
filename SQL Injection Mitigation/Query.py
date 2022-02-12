@@ -1,4 +1,5 @@
 def genQuery(username, password):
+  #generates a SQL statement if a given username and password are not invalid
   if username == "Invalid" or password == "Invalid":
     query ="You username/password is invalid."
   else: 
