@@ -1,6 +1,6 @@
 def genQueryWeak(username, password):
     #provides basic mitigation through editing inputs to create desired or allowed inputs.
-    invalid = ['-', ':', ';', '/', 'OR', 'UNION SELECT', ]
+    invalid = ['-', ':', ';', '/', "'", ]
     count= 0
     length = len(username)
     for x in range(length):
